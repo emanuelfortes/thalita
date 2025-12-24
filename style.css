@@ -24,6 +24,7 @@ body {
 }
 
 h1 {
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
@@ -33,6 +34,7 @@ ul {
 }
 
 li {
+  font-size: 19px;
   margin: 5px 0;
 }
 
