@@ -52,9 +52,14 @@ button:hover {
 }
 
 pre {
-  font-size: 14px;
+  font-family: system-ui, sans-serif;
+  white-space: pre-wrap;   /* quebra linha no mobile */
+  word-wrap: break-word;
+  font-size: clamp(1rem, 4.5vw, 1.2rem);
+  line-height: 1.5;
   text-align: left;
 }
+
 
 .final {
   margin-top: 10px;
